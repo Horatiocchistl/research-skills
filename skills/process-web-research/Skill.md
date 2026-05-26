@@ -1,6 +1,6 @@
 ---
 name: process-wed-research 
-description: Extract PDF text, fill forms, merge files. Use when handling PDFs.
+description: How to process data from raw web searches.
 license: MIT
 metadata:
   author: Ronald Dean Strawbridge 
