@@ -1,5 +1,5 @@
 ---
-name: process-wed-research 
+name: process-web-research 
 description: How to process data from raw web searches.
 license: MIT
 metadata:
