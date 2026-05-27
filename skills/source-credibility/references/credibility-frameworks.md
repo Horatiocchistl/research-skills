@@ -37,15 +37,44 @@ Three core questions:
 
 ---
 
-## Publisher Credibility Tiers
+## Web Resource Hierarchy for Research
 
-| Tier | Examples | Research weight |
-|---|---|---|
-| **1 — Highest** | Nature, Science, NEJM, The Lancet, peer-reviewed journals in any field | Full citation |
-| **2 — High** | University press books, government statistical agencies (BLS, ONS, Eurostat, CDC, WHO) | Full — verify methodology |
-| **3 — Moderate** | AP, Reuters, BBC, The New York Times, The Guardian, WSJ (news), professional associations | Corroborate for technical claims |
-| **4 — Low** | Advocacy organizations, trade press, industry reports | Background; always corroborate |
-| **5 — Minimal** | Anonymous sources, social media posts, AI-generated content without independent verification | Do not cite in research |
+Sources rank by credibility, editorial rigor, and proximity to original data — from peer-reviewed academic databases at the top to unfiltered user-generated content at the bottom.
+
+### Tier 1 — Peer-Reviewed Academic & Scholarly Sources (Highest Credibility)
+Written by field experts. Undergo rigorous scrutiny by other researchers before publication. The gold standard for empirical claims.
+
+**Examples:** Peer-reviewed journals, university press books, conference proceedings  
+**Where to find:** Google Scholar, PubMed (biomedical sciences), JSTOR, institutional library databases  
+**Research weight:** Full citation — primary source for empirical claims
+
+### Tier 2 — Evaluated & Official Reports (High Credibility)
+Curated factual data and professional analysis. No formal academic peer review but rely on strict institutional accountability and transparency.
+
+**Examples:** Government (.gov) white papers, World Bank data, WHO reports, Pew Research, respected think tank reports  
+**Where to find:** Official government portals, institutional repositories, ERIC (education research)  
+**Research weight:** Full — verify methodology before citing statistics
+
+### Tier 3 — Reputable Journalism & Media (Moderate-High Credibility)
+Secondary analysis, current events, investigative reporting. Employ fact-checkers and editors but may carry institutional biases.
+
+**Examples:** The New York Times, The Wall Street Journal, Scientific American, The Economist, established trade magazines  
+**Where to find:** Publication websites directly, ProQuest, EBSCO  
+**Research weight:** Corroborate for technical or empirical claims; acceptable for documented events
+
+### Tier 4 — General Web Content & Wikis (Variable Credibility)
+Bulk of the open internet. Quality varies from accurate encyclopedia entries to agenda-driven blogs and misinformation.
+
+**Examples:** Wikipedia (useful for broad overviews, not primary citation), organizational blogs, commercial websites  
+**Where to find:** Google, Bing  
+**Research weight:** Background orientation only — always corroborate with Tier 1–3; never cite as primary
+
+### Tier 5 — Social Media & Unmoderated Forums (Lowest Credibility)
+First-hand accounts or unverified personal opinions. Capture raw public sentiment or early-breaking news but lack editorial oversight or fact-checking.
+
+**Examples:** Reddit, X (Twitter), TikTok, personal blogs  
+**Where to find:** Platform search or general search engines  
+**Research weight:** Do not cite in research — log as signal only; verify any claim through Tier 1–3 before using
 
 ---
 

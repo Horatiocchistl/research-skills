@@ -35,20 +35,19 @@ Clearly write out what needs to be known. Vague topics produce generic results �
 
 ## Step 2 — Select Sources
 
-List the target platforms and source types before searching. Choosing source types in advance prevents defaulting to the first result that appears.
+Match the research objective to the appropriate tier of the web resource hierarchy before searching. Starting at the highest applicable tier prevents defaulting to low-credibility results.
 
-Identify which of the following apply to this research objective:
+| Tier | Source type | Specific databases / where to search | Use when |
+|---|---|---|---|
+| **1 — Highest** | Peer-reviewed journals, university press, conference proceedings | Google Scholar, PubMed (biomedical), JSTOR, institutional library | Empirical claims, scientific or social science questions |
+| **2 — High** | Government reports, international org data, think tank research | .gov portals, WHO, World Bank, Pew Research, ERIC (education), institutional repositories | Statistics, policy, regulatory facts, international data |
+| **3 — Moderate-High** | Major newspapers, established trade and science publications | Publication websites, ProQuest, EBSCO | Current events, investigative findings, documented public facts |
+| **4 — Variable** | Wikipedia, organizational blogs, commercial sites | Google, Bing | Background orientation only — not primary citation |
+| **5 — Lowest** | Social media, forums, personal blogs | Platform search | Do not use as research sources — signal only |
 
-| Source type | Use when |
-|---|---|
-| Academic databases (PubMed, JSTOR, Google Scholar) | Empirical claims, scientific or social science questions |
-| Industry blogs and trade publications | Sector-specific knowledge, practitioner experience |
-| Official government registries and agencies | Statistics, policy, legal and regulatory facts |
-| General search engines | Current events, broad orientation, finding primary sources |
-| Institutional reports (think tanks, NGOs, UN, WHO) | Policy analysis, international data |
-| News archives | Historical events, documented public facts |
+**Output:** Identify which tiers apply to this objective. Start searching at the highest applicable tier. Document which tiers were searched in the Research Plan.
 
-**Output:** A list of 2–4 source types appropriate to the objective. If none fit, flag the objective for clarification before proceeding.
+**Default rule:** If the objective is empirical (statistics, science, policy), begin at Tier 1–2. If the objective is current events or industry knowledge, begin at Tier 2–3. Do not begin at Tier 4 unless Tiers 1–3 return nothing relevant.
 
 ---
 
