@@ -28,10 +28,14 @@ Evaluate any source using layered, established frameworks — not intuition.
 
 Before engaging with the source's content, look outward:
 
-1. Search for what other credible sources say **about** this source or its publisher.
-2. Identify who funds, owns, or publishes the source.
-3. Check whether fact-checking organizations (Snopes, FactCheck.org, PolitiFact, AFP Fact Check, Reuters Fact Check) have assessed this source or its claims.
-4. Look up the publisher or author in Wikipedia or a credible directory — not to use Wikipedia as a source, but to quickly learn what others say about the source's reputation.
+1. **Search the publisher name**: Use the search query `"[publisher or site name]" bias` or `"[publisher name]" credibility`. Look for media bias charts, press coverage, and Wikipedia entries — not to cite them, but to calibrate.
+2. **Search the author name**: Use `"[author full name]" [institution or field]`. Verify the credentials claimed in the byline match what independent sources say.
+3. **Check fact-checkers**: Search `"[claim or headline]" site:snopes.com OR site:factcheck.org OR site:politifact.com OR site:reuters.com/fact-check`. If the claim has been assessed, read the verdict before reading the source.
+4. **Read the Wikipedia entry for the publisher** (if one exists): Look at the description, ownership, and any "criticism" or "controversies" section. Do not use Wikipedia as a research source — use it only to quickly assess reputation.
+
+**What a useful lateral reading result looks like**: independent coverage of the publisher's track record, editorial standards, ownership, or funding. A result that only repeats the source's own claims is not useful.
+
+**If no lateral reading results exist**: the source is unestablished. Score Authority at 2 maximum in Step 2 and flag for corroboration.
 
 **Why first**: A convincing-looking but unreliable source can anchor your judgment if you read it first. Lateral reading calibrates your assessment before you invest in the content.
 
