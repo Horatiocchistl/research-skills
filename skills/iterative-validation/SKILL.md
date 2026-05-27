@@ -66,8 +66,9 @@ Note whether the cited source actually says what the author claims it says — t
 **Goal:** Find evidence from sources independent of the original author.
 
 For each claim:
-1. Seek corroborating OR contradicting evidence from sources that have no connection to the original author or their institution.
-2. Record for each source found:
+1. Derive a search query directly from the claim text — use the key noun phrases and entity names, not the topic generally. Example: for the claim "remote work increases productivity by 13%," search `"remote work" productivity 13% study` not `remote work benefits`. Use `site:edu`, `site:gov`, or `filetype:pdf` operators to bias toward authoritative sources. Run at least two query variants per claim before concluding a search found nothing.
+2. Seek corroborating OR contradicting evidence from sources that have no connection to the original author or their institution. Apply the source independence test in `references/validation-framework.md` to every source found.
+3. Record for each source found:
    - Source name and publication
    - Year and credibility tier (peer-reviewed / institutional / journalism / other)
    - Stance: **supports** | **contradicts** | **neutral** | **unrelated**

@@ -26,6 +26,21 @@ When rules conflict with memory or intuition, defer to these two sources. Full f
 
 ## Instructions
 
+### Step 0 — Assess Citation Presence
+
+Before parsing, determine whether the document contains citations at all.
+
+- **Citations present**: in-text markers (Author, Year) or (Author page) are visible, OR a reference list / works cited section exists at the end. Proceed to Step 1.
+- **No citations found**: the document makes factual claims but provides no sourcing. Do not proceed with parsing — there is nothing to parse. Instead:
+  1. Identify every factual claim in the document (any assertion that can be verified or falsified).
+  2. Output a numbered list of uncited claims.
+  3. Flag the document: *"No citations found. The following claims require sourcing before this document can be validated."*
+  4. Use the `process-web-research` skill to locate and attach sources for each flagged claim.
+
+**Do not silently pass a document with no citations** — absence of citations is itself a finding.
+
+---
+
 ### Step 1 — Detect Citation Style
 
 Examine the text and identify the citation format in use. Key signals:
