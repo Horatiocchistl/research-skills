@@ -2,6 +2,8 @@
 
 Agent skills for rigorous, citation-backed research. Follows the [agentskills.io](https://agentskills.io) open standard.
 
+**Human-led, AI-assisted.** The human researcher leads every session. The LLM executes structured research methodology — planning, retrieving, noting, evaluating, synthesizing — under the researcher's direction. Structural decisions (what to research, which method to use, when to stop, what counts as sufficient) belong to the researcher. The LLM presents options and reasoning; the researcher decides.
+
 These skills teach an LLM to research and validate the way human researchers do — iteratively, with sourced evidence, and with explicit checks against bias. The citation foundation is grounded in two authoritative references:
 
 - **APA 7th Edition** — [Webpage & Website References](https://apastyle.apa.org/style-grammar-guidelines/references/examples/webpage-website-references) (APA Style, American Psychological Association)

@@ -19,6 +19,8 @@ This is the same reason human researchers take notes: not to record everything, 
 
 **This skill is called by every other research skill.** Whenever a source is retrieved, evaluated, or produces a finding, that content goes into a note file immediately — not at the end of the session.
 
+**The lead researcher directs the session.** This is a human-led workflow. The LLM executes note-taking under the researcher's direction. Structural decisions — which method to use, when to stop, what counts as sufficient — belong to the researcher. The LLM presents options, offers reasoning, and waits. It does not choose autonomously.
+
 **Do not copy verbatim.** Per BCIT, copying content word for word is passive — it does not support understanding or retention. Every note file contains paraphrases and labeled quotes, not raw content dumps. The act of distilling to key points is itself part of the research process.
 
 ### How this skill is structured
@@ -85,27 +87,31 @@ The index table starts empty. It is filled in Step 4 each time a note file is cr
 
 ## Step 2 — Select a Note-Taking Method
 
-Choose before starting. The method determines how findings are structured inside each note file. Record the chosen method in `index.md`.
+**This decision is made by the lead researcher, not the LLM.** Present the options below, offer a one-sentence suggestion based on the research objective, and wait for the researcher's choice. Record the chosen method in `index.md` before creating any note files.
 
-| Method | Best for | Structure | Source |
-|---|---|---|---|
-| **Outline** *(default)* | Structured topics with clear hierarchy; sources with sections and arguments | Topic → subtopics → supporting facts (nested bullets) | UGA OSSA / Box |
-| **Cornell** | Abstract subjects with central ideas; any source you will revisit or synthesize; NOT for heavy stats or terminology | Notes (right) + Cues/Questions (left) + Summary (bottom) | UGA OSSA / Box / BCIT |
-| **Charting** | Fact/data-heavy material; comparing sources on the same dimensions; statistics, definitions, comparisons | Column per dimension, row per source — built into the index | UGA OSSA / Box |
-| **Sentence** | Fast-paced unstructured sources; dense material; when organization can happen later | One complete sentence per fact/claim, numbered sequentially | UGA OSSA / Box |
-| **Mapping** | Complex interconnected content; understanding how themes relate across sources; preview material first to gauge scope | Main topic → branches → sub-branches (use indented headers + `→`) | UGA OSSA / Box |
-| **Boxing** | Multiple distinct discussion tracks; brainstorming sources; visual separation of topics | Sections wrapped in horizontal rules, each with a header + notes block | Box |
-| **Zettelkasten** | Long-term multi-session research; building a knowledge base across many sources | One atomic note per source; unique ID; cross-linked via index | Box |
+| Method | Best for | Structure |
+|---|---|---|
+| **Outline** | Structured topics with clear hierarchy; sources with sections and arguments | Topic → subtopics → supporting facts (nested bullets) |
+| **Cornell** | Abstract subjects with central ideas; sources you will revisit or synthesize; NOT for heavy stats or terminology | Notes (right) + Cues/Questions (left) + Summary (bottom) |
+| **Charting** | Fact/data-heavy material; comparing sources on the same dimensions — statistics, definitions, comparisons | Column per dimension, row per source |
+| **Sentence** | Fast-paced unstructured sources; dense material; when organization can happen later | One complete sentence per fact/claim, numbered sequentially |
+| **Mapping** | Complex interconnected content; understanding how themes relate across sources | Main topic → branches → sub-branches |
+| **Boxing** | Multiple distinct discussion tracks; brainstorming sources; visual separation of topics | Sections with headers, each boxed separately |
+| **Zettelkasten** | Long-term multi-session research; building a knowledge base across many sources | One atomic note per source; unique ID; cross-linked via index |
 
-**Default rule:** Use **Outline** for single-session research. Use **Cornell** when sources contain abstract arguments you will need to synthesize. Use **Charting** when comparing multiple sources on the same dimensions. Use **Zettelkasten** (this skill's base system) automatically for multi-session research.
+**LLM role in this step:**
+1. Present the table above to the researcher
+2. Offer one sentence of suggestion based on the research objective (e.g., "This looks like fact-heavy comparative work — Charting might suit it — but the choice is yours")
+3. Wait for the researcher's answer
+4. Record the confirmed method in `index.md` under `**Note-taking method:**`
+5. Do not proceed to Step 3 until the researcher has confirmed
 
-**Preparation before writing any note** (per UGA OSSA + BCIT):
+**Preparation before writing any note** (LLM executes these before every source, regardless of method chosen):
 1. **Preview the source first** — skim headings, abstract, section titles; look for main topics, bolded terms, and summaries/conclusions before writing anything
 2. **Review the research plan** (plan-the-support output) as the road map before starting each session
 3. **Review the session index** from any previous session — provides context so new sources connect to what is already recorded
-4. **Decide method and folder structure before the first note file** — organization planned in advance, not retroactively
-5. **For long sources**: write a brief preview summary (what's familiar, what's challenging) before full processing
-6. **Include source reference in every note** — URL, date accessed, and section identifiers — so you can return to the source later
+4. **For long sources**: write a brief preview summary (what's familiar, what's challenging) before full processing
+5. **Include source reference in every note** — URL, date accessed, and section identifiers — so the researcher can return to the source later
 
 ---
 

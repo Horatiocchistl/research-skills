@@ -15,7 +15,7 @@ Prepare the research engagement before any searching begins. A research session 
 
 ## Core Principle
 
-Do not search until the plan is confirmed. Every action in this skill happens before a single search query is run.
+The lead researcher directs this engagement. The LLM prepares and presents the plan; the researcher confirms it before any searching begins. Every action in this skill happens before a single search query is run.
 
 ---
 
@@ -112,7 +112,7 @@ Workspace:            [initialized — see research-note-taking log]
 Keyword Table:        [core phrases, synonyms, operators]
 Session Limit:        [time or source count]
 Sufficiency Target:   [sources required per sub-question]
-Confirmed by:         [human researcher / AI / both]
+Confirmed by:         [lead researcher — human sign-off required before proceeding]
 ```
 
 Do not proceed to `process-web-research` or any search tool until this plan is confirmed.
